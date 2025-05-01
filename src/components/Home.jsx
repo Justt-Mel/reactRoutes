@@ -1,7 +1,7 @@
 
 function Home(){
     return(
-        <div className="green">
+        <div className = "green">
             <h1>Home</h1>
         </div>
     )

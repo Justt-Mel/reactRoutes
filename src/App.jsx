@@ -9,18 +9,18 @@ function App() {
 
 
   return (
-    <div id="container">
+    <div id = "container">
     <h1>Hello React Router!</h1>
-    <div id="navbar">
-      <Link to="/">Home</Link>
-      <Link to ="/blue">Blue</Link>
-      <Link to ="/red">Red</Link>
+    <div id = "navbar">
+      <Link to= "/">Home</Link>
+      <Link to = "/blue">Blue</Link>
+      <Link to = "/red">Red</Link>
       </div>
-    <div id="main-section">
+    <div id = "main-section">
       <Routes>
-        <Route path="/" element ={<Home/>}/>
-        <Route path = "/Blue" element ={<Blue/>}/>
-        <Route path ="/Red" element = {<Red/>}/>
+        <Route path= "/" element = {<Home/>}/>
+        <Route path = "/Blue" element = {<Blue/>}/>
+        <Route path = "/Red" element = {<Red/>}/>
       </Routes>
 
     </div>
